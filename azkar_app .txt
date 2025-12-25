@@ -1,0 +1,721 @@
+نسخ التعليمات البرمجية
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.cardنسخ التعليمات البرمجيةنسخ التعليمات البرمجية
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر نسخ التعليمات البرمجية
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر التالي</button>
+</div>
+
+<script>
+let azkar = [
+  "سبحان الله",
+  "الحمد لله",
+  "لا إله إلا الله",
+  "الله أكبر",
+  "لا حول ولا قوة إلا بالله",
+  "أستغفر الله",
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>#80FF00نسخ التعليمات البرمجية
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر نسخ التعليمات البرمجية
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر التالي</button>
+</div>
+
+<script>
+let azkar = [
+  "سبحان الله",
+  "الحمد لله",
+  "لا إله إلا الله",
+  "الله أكبر",
+  "لا حول ولا قوة إلا بالله",
+  "أستغفر الله",
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>#80FF00
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر نسخ التعليمات البرمجية
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر التالي</button>
+</div>
+
+<script>
+let azkar = [
+  "سبحان الله",
+  "الحمد لله",
+  "لا إله إلا الله",
+  "الله أكبر",
+  "لا حول ولا قوة إلا بالله",
+  "أستغفر الله",
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>#80FF00
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر نسخ التعليمات البرمجية
+Html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أذكار</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  direction: rtl;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#count {
+  font-size: 40px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📿 أذكار المسلم</h1>
+
+<div class="card">
+  <p id="zekr">سبحان الله</p>
+  <div id="count">0</div>
+
+  <button onclick="add()">تسبيح</button>
+  <button onclick="reset()">تصفير</button>
+  <br><br>
+  <button onclick="nextZekr()">الذكر التالي</button>
+</div>
+
+<script>
+let azkar = [
+  "سبحان الله",
+  "الحمد لله",
+  "لا إله إلا الله",
+  "الله أكبر",
+  "لا حول ولا قوة إلا بالله",
+  "أستغفر الله",
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>
+  "اللهم صلِّ على محمد"
+];
+
+let index = 0;
+let counter = 0;
+
+function add() {
+  counter++;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function reset() {
+  counter = 0;
+  document.getElementById("count").innerHTML = counter;
+}
+
+function nextZekr() {
+  index++;
+  if (index >= azkar.length) {
+    index = 0;
+  }
+  document.getElementById("zekr").innerHTML = azkar[index];
+  reset();
+}
+</script>
+
+</body>
+</html>#80FF00

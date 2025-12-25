@@ -1,87 +1,57 @@
-
 نسخ التعليمات البرمجية
 Html
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-<meta charset="UTF-8">
-<title>أذكار المسلم</title>
-
-<style>
-body {
-  font-family: Arial;
-  text-align: center;
-  direction: rtl;
-  background: #e8f5e9;
-}
-
-h1 { color: #2e7d32; }
-
-.card {
-  background: white;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 15px;
-}
-
-#count {
-  font-size: 40px;
-  margin: 15px 0;
-}
-
-button {
-  padding: 12px 18px;
-  font-size: 16px;
-  background: #2e7d32;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  margin: 5px;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>تطبيق أذكار</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f0f8ff;
+            text-align: center;
+            padding: 20px;
+        }
+        .zekr {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
 </head>
-
 <body>
 
-<h1>📿 أذكار المسلم</h1>
+<h1>🌿 أذكار اليوم 🌿</h1>
 
-<div class="card">
-  <p id="zekr">سبحان الله</p>
-  <div id="count">0</div>
-
-  <button onclick="add()">تسبيح</button>
-  <button onclick="reset()">تصفير</button><br>
-  <button onclick="nextZekr()">الذكر التالي</button>
+<div class="zekr" id="zekr">
+    سبحان الله
 </div>
 
+<button onclick="changeZekr()">ذكر جديد</button>
+
 <script>
-let azkar = [
-"سبحان الله",
-"الحمد لله",
-"لا إله إلا الله",
-"الله أكبر",
-"أستغفر الله",
-"اللهم صلِّ على محمد"
-];
+    const azkar = [
+        "سبحان الله",
+        "الحمد لله",
+        "لا إله إلا الله",
+        "الله أكبر",
+        "لا حول ولا قوة إلا بالله"
+    ];
 
-let index = 0;
-let counter = 0;
-
-function add() {
-  counter++;
-  document.getElementById("count").innerHTML = counter;
-}
-
-function reset() {
-  counter = 0;
-  document.getElementById("count").innerHTML = counter;
-}
-
-function nextZekr() {
-  index = (index + 1) % azkar.length;
-  document.getElementById("zekr").innerHTML = azkar[index];
-  reset();
-}
+    function changeZekr() {
+        const random = Math.floor(Math.random() * azkar.length);
+        document.getElementById("zekr").innerText = azkar[random];
+    }
 </script>
 
 </body>
